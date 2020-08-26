@@ -15,6 +15,14 @@ namespace ClassRoom
             ClassRoom.SemesterStartDateTime = new DateTime(26/8/2019);
             ClassRoom.studentList.Add(new Student("james",4,27));
             ClassRoom.studentList.Add(new Student("leon",5,19));
+            Console.WriteLine(ClassRoom.ClassName);
+            Console.WriteLine(ClassRoom.SemesterStartDateTime);
+           
+            foreach (var student in ClassRoom.studentList)
+            {
+                Console.WriteLine(student.ToString());
+            }
+           
         }
     }
 
