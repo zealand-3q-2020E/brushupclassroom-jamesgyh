@@ -13,18 +13,5 @@ namespace ClassRoom
         }
     }
 
-    public class Student
-    {
-        public string name;
-        public int birthMonth;
-        public int birthday;
-
-        public Student(string Name,int BirthMonth,int Birthday)
-        {
-            name = Name;
-            birthMonth = BirthMonth;
-            birthday = Birthday;
-        }
-       
-    }
+    
 }
